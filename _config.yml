@@ -15,7 +15,7 @@ remote_theme             : mmistakes/minimal-mistakes
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
+locale                   : "ko-KR"
 title                    : "Kang's Blog"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
@@ -107,11 +107,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "KangSeungHwan(강승환)"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  bio              : "Study & Develop"
+  location         : "Seoul,Korea"
+  email            : rnltls97@gmail.com
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
