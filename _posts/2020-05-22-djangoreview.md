@@ -1,7 +1,7 @@
 ---
 title: "Django Review"
 date: "2019-05-22-14:26"
-categories: django,python
+categories: django python
 ---
 
 혼자 끄적인 Django 리뷰
