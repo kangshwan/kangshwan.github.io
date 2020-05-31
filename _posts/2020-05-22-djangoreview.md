@@ -5,7 +5,7 @@ categories: django python
 ---
 
 혼자 끄적인 Django 리뷰
-===================
+===========  
 View에서 template로 context넘겨줄때 여러개의 context 보내는법.  
 
 get_context_data(self, **kwargs)를 overriding한다.  
