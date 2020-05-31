@@ -1,3 +1,9 @@
+---
+title: "posting error"
+date: "2020-05-31-23:15"
+categories: github jekyll liquidtag
+---
+
 Github blog posting관련 문제
 =====
 django에 대해서 공부한걸 올리다가 posting에 문제가 발생했다.  
