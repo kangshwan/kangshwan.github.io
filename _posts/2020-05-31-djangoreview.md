@@ -22,17 +22,17 @@ context들은 template에서 정해준 이름(ex, context['article_list'] 여기
 
 
 여러가지 value들에서 중복되는 value들을 제거하고 싶을때--  
-위 경우 pub_date에 2020 2020 2020 2019 이렇게 들어있었고, 내가 원한건 2020과 2019였다.  
-.filter가 아닌 .values와 .distinct() 를 사용해서 깔끔하게 처리해줄수 있었다.!  
+위 경우 ```pub_date```에 2020 2020 2020 2019 이렇게 들어있었고, 내가 원한건 2020과 2019였다.  
+```.filter```가 아닌 ```.values```와 ```.distinct()``` 를 사용해서 깔끔하게 처리해줄수 있었다.!  
 
-.order_by('something')에서 something앞에 -를 붙여주면 내림차순, 없다면 오름차순이다.  
+```.order_by('something')```에서 something앞에 -를 붙여주면 내림차순, 없다면 오름차순이다.  
 
 template를 사용할때  
-{% block 블록이름 %}이 굉장히 유용한것같다 {% endblock %}  
+```{% block 블록이름 %}```이 굉장히 유용한것같다 ```{% endblock %}```  
 block을 사용하면 기본 template를 유지하면서 내용을 빠르게 변화시켜갈 수 있다.  
 
-{% ifchanges %}를 이용하여 중복을 제거할수있다.  
-{% endifchanges %}와 세트.
+```{% ifchanges %}```를 이용하여 중복을 제거할수있다.  
+```{% endifchanges %}```와 세트.
 
 models에 DB에 저장할 것들을 정리해 둔다.  
 views에 어떻게 view를 구성할지(template) 정해두고  
