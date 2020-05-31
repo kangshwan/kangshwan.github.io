@@ -20,9 +20,7 @@ get_context_data(self, **kwargs)를 overriding한다.
 context들은 template에서 정해준 이름(ex, context['article_list'] 여기 article_list가 이름이다!)  
 을 사용하여 입맛대로 꾸밀 수 있다.
 
-
 여러가지 value들에서 중복되는 value들을 제거하고 싶을때--  
-위 경우 ```pub_date```에 2020 2020 2020 2019 이렇게 들어있었고, 내가 원한건 2020과 2019였다.  
 ```.filter```가 아닌 ```.values```와 ```.distinct()``` 를 사용해서 깔끔하게 처리해줄수 있었다.!  
 
 ```.order_by('something')```에서 something앞에 -를 붙여주면 내림차순, 없다면 오름차순이다.  
