@@ -1,6 +1,6 @@
 ---
 title: "Django Review"
-date: "2019-05-22-14:26"
+date: "2020-05-22-14:26"
 categories: django python
 ---
 
